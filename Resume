@@ -1,0 +1,88 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width,initial-scale=1">
+<title>Omji Rai — Resume</title>
+<style>
+:root{--bg:#f4f6fa;--card:#fff;--accent:#0f172a;--muted:#6b7280;--primary:#0b74ff}
+*{box-sizing:border-box}body{margin:0;font-family:Inter,Segoe UI,Roboto,Arial,sans-serif;background:var(--bg);color:var(--accent);line-height:1.5}
+.wrap{max-width:900px;margin:40px auto;padding:20px}
+.card{background:var(--card);border-radius:12px;box-shadow:0 4px 20px rgba(0,0,0,0.06);padding:28px}
+header{text-align:center;margin-bottom:24px}
+header h1{margin:0;font-size:28px}header p{margin:4px 0;color:var(--muted);font-size:14px}
+.section{margin-top:24px}
+.section h2{font-size:18px;margin-bottom:12px;color:var(--primary)}
+.job{margin-bottom:14px}
+.job h3{margin:0;font-size:16px}
+.job .meta{font-size:13px;color:var(--muted)}
+.skills{display:flex;flex-wrap:wrap;gap:8px}
+.skill{background:#eef2ff;padding:6px 10px;border-radius:999px;font-size:13px}
+</style>
+</head>
+<body>
+<div class="wrap">
+  <div class="card">
+    <header>
+      <h1>Omji Rai</h1>
+      <p>Email: <a href="mailto:omjirai3139@gmail.com">omjirai3139@gmail.com</a> | Phone: +91 6388974149</p>
+      <p>Varanasi, India | <a href="https://www.linkedin.com/in/omji-rai/">LinkedIn</a></p>
+    </header>
+
+    <section class="section">
+      <h2>Summary</h2>
+      <p>I am a graduate student with a background in programming, cybersecurity, and software engineering, currently seeking summer internship opportunities to apply theoretical concepts to real-world problems.</p>
+    </section>
+
+    <section class="section">
+      <h2>Education</h2>
+      <p><strong>B.Tech in Computer Science and Engineering (Cybersecurity Specialization)</strong><br>Bennett University, India — Aug 2023 (Current)</p>
+    </section>
+
+    <section class="section">
+      <h2>Projects & Research</h2>
+      <div class="job">
+        <h3>Data Leak Detection System (DLDS)</h3>
+        <p>Developed a Python-based DLDS to monitor file or folder changes with IP/MAC-bound access control. Implemented real-time notifications and automatic log generation for data access or modification.</p>
+      </div>
+      <div class="job">
+        <h3>Vehicular Ad-hoc Network (VANET) Security Research</h3>
+        <p>Conducting research on secure communication in VANET using segmented data transmission with PUF-based authentication and Selective Repeat ARQ. Currently drafting a research paper for publication.</p>
+      </div>
+      <div class="job">
+        <h3>Android Malware Research</h3>
+        <p>Researched Android malware and mobile threat vectors. Helped design the threat model and AI-based detection strategy. Presented at Mobilon competition, securing 3rd place.</p>
+      </div>
+      <div class="job">
+        <h3>Management System (Java + SQL)</h3>
+        <p>Developed a management system with CRUD operations, transaction handling, and reporting. Maintained data integrity with SQL backend and Java interface.</p>
+      </div>
+    </section>
+
+    <section class="section">
+      <h2>Courses</h2>
+      <p>Data Structures and Algorithms (DSA), Operating Systems, Database Management Systems (DBMS), Computer Networks</p>
+    </section>
+
+    <section class="section">
+      <h2>Skills</h2>
+      <div class="skills">
+        <div class="skill">C++</div>
+        <div class="skill">Java (Basic)</div>
+        <div class="skill">HTML (Basic)</div>
+        <div class="skill">JavaScript (Basic)</div>
+        <div class="skill">CSS (Basic)</div>
+        <div class="skill">Data Structures & Algorithms</div>
+        <div class="skill">Linux Command</div>
+        <div class="skill">Subfinder</div>
+        <div class="skill">Amass</div>
+        <div class="skill">EveWitness</div>
+        <div class="skill">Nmap</div>
+        <div class="skill">Dirb</div>
+        <div class="skill">Dirbuster</div>
+      </div>
+    </section>
+  </div>
+</div>
+</body>
+</html>
