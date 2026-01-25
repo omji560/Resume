@@ -5,83 +5,165 @@
 <meta name="viewport" content="width=device-width,initial-scale=1">
 <title>Omji Rai — Resume</title>
 <style>
-:root{--bg:#f4f6fa;--card:#fff;--accent:#0f172a;--muted:#6b7280;--primary:#0b74ff}
-*{box-sizing:border-box}body{margin:0;font-family:Inter,Segoe UI,Roboto,Arial,sans-serif;background:var(--bg);color:var(--accent);line-height:1.5}
+:root{
+  --bg:#f4f6fa;
+  --card:#ffffff;
+  --primary:#0b74ff;
+  --text:#0f172a;
+  --muted:#6b7280;
+}
+*{box-sizing:border-box}
+body{
+  margin:0;
+  font-family:Inter,Segoe UI,Roboto,Arial,sans-serif;
+  background:var(--bg);
+  color:var(--text);
+  line-height:1.55;
+}
 .wrap{max-width:900px;margin:40px auto;padding:20px}
-.card{background:var(--card);border-radius:12px;box-shadow:0 4px 20px rgba(0,0,0,0.06);padding:28px}
-header{text-align:center;margin-bottom:24px}
-header h1{margin:0;font-size:28px}header p{margin:4px 0;color:var(--muted);font-size:14px}
-.section{margin-top:24px}
-.section h2{font-size:18px;margin-bottom:12px;color:var(--primary)}
-.job{margin-bottom:14px}
-.job h3{margin:0;font-size:16px}
-.job .meta{font-size:13px;color:var(--muted)}
-.skills{display:flex;flex-wrap:wrap;gap:8px}
-.skill{background:#eef2ff;padding:6px 10px;border-radius:999px;font-size:13px}
+.card{
+  background:var(--card);
+  border-radius:12px;
+  box-shadow:0 10px 30px rgba(0,0,0,.06);
+  padding:32px;
+}
+header{text-align:center;margin-bottom:28px}
+header h1{margin:0;font-size:30px}
+header p{margin:6px 0;color:var(--muted);font-size:14px}
+header a{color:var(--primary);text-decoration:none}
+
+.section{margin-top:26px}
+.section h2{
+  font-size:18px;
+  margin-bottom:10px;
+  color:var(--primary);
+  border-bottom:1px solid #e5e7eb;
+  padding-bottom:4px;
+}
+
+.item{margin-bottom:14px}
+.item h3{margin:0;font-size:16px}
+.item p{margin:4px 0;font-size:14px;color:var(--muted)}
+
+.skills{
+  display:flex;
+  flex-wrap:wrap;
+  gap:8px;
+}
+.skill{
+  background:#eef2ff;
+  padding:6px 12px;
+  border-radius:999px;
+  font-size:13px;
+}
+.download{
+  margin-top:10px;
+  font-size:14px;
+}
+.download a{
+  color:var(--primary);
+  font-weight:600;
+}
 </style>
 </head>
+
 <body>
 <div class="wrap">
   <div class="card">
+
     <header>
       <h1>Omji Rai</h1>
-      <p>Email: <a href="mailto:omjirai3139@gmail.com">omjirai3139@gmail.com</a> | Phone: +91 6388974149</p>
-      <p>Varanasi, India | <a href="https://www.linkedin.com/in/omji-rai/">LinkedIn</a></p>
+      <p>
+        <a href="mailto:omjirai3139@gmail.com">omjirai3139@gmail.com</a> |
+        +91 6388974149 |
+        <a href="https://www.linkedin.com/in/omji-rai/">LinkedIn</a> |
+        <a href="https://github.com/omji560">GitHub</a>
+      </p>
+      <div class="download">
+        📄 <a href="OmJi_Resume.pdf">Download Resume (PDF)</a>
+      </div>
     </header>
 
     <section class="section">
       <h2>Summary</h2>
-      <p>I am a graduate student with a background in programming, cybersecurity, and software engineering, currently seeking opportunities to apply theoretical concepts to real-world problems.</p>
+      <p>
+        Computer Science undergraduate specializing in Cybersecurity with hands-on
+        experience in system-level security projects. Strong foundation in Data
+        Structures and Algorithms, Operating Systems, Computer Networks, and DBMS.
+        Actively seeking software engineering and security-focused roles.
+      </p>
     </section>
 
     <section class="section">
       <h2>Education</h2>
-      <p><strong>B.Tech in Computer Science and Engineering (Cybersecurity Specialization)</strong><br>Bennett University, India — Aug 2023 (Current)</p>
+      <div class="item">
+        <h3>B.Tech in Computer Science and Engineering (Cybersecurity)</h3>
+        <p>Bennett University, Greater Noida, India • 2023 – Present</p>
+      </div>
     </section>
 
     <section class="section">
-      <h2>Projects & Research</h2>
-      <div class="job">
+      <h2>Projects & Research Experience</h2>
+
+      <div class="item">
         <h3>Data Leak Detection System (DLDS)</h3>
-        <p>Developed a Python-based DLDS to monitor file or folder changes with IP/MAC-bound access control. Implemented real-time notifications and automatic log generation for data access or modification.</p>
+        <p>
+          Python-based system monitoring 100+ file access events per session.
+          Implemented IP and MAC-based access control and centralized audit logging
+          for file modifications and unauthorized access detection.
+        </p>
       </div>
-      <div class="job">
-        <h3>Vehicular Ad-hoc Network (VANET) Security Research</h3>
-        <p>Conducting research on secure communication in VANET using segmented data transmission with PUF-based authentication and Selective Repeat ARQ. Currently drafting a research paper for publication.</p>
+
+      <div class="item">
+        <h3>VANET Security Research (PUF-Based Authentication)</h3>
+        <p>
+          Designed secure vehicular communication model using PUF-based authentication
+          and segmented transmission with Selective Repeat ARQ. Research paper currently
+          under academic review.
+        </p>
       </div>
-      <div class="job">
+
+      <div class="item">
         <h3>Android Malware Research</h3>
-        <p>Researched Android malware and mobile threat vectors. Helped design the threat model and AI-based detection strategy. Presented at Mobilon competition, securing 3rd place.</p>
+        <p>
+          Analyzed Android malware samples across multiple threat categories including
+          data exfiltration. Contributed to threat modeling and AI-based detection strategy.
+          Secured 3rd place at Mobilon competition.
+        </p>
       </div>
-      <div class="job">
-        <h3>Management System (Java + SQL)</h3>
-        <p>Developed a management system with CRUD operations, transaction handling, and reporting. Maintained data integrity with SQL backend and Java interface.</p>
+
+      <div class="item">
+        <h3>Management System (Java & SQL)</h3>
+        <p>
+          Developed Java-based management system supporting CRUD operations across
+          multiple relational tables with transaction handling and optimized schema design.
+        </p>
       </div>
+
     </section>
 
     <section class="section">
-      <h2>Courses</h2>
-      <p>Data Structures and Algorithms (DSA), Operating Systems, Database Management Systems (DBMS), Computer Networks</p>
-    </section>
-
-    <section class="section">
-      <h2>Skills</h2>
+      <h2>Technical Skills</h2>
       <div class="skills">
         <div class="skill">C++</div>
-        <div class="skill">Java (Basic)</div>
-        <div class="skill">HTML (Basic)</div>
-        <div class="skill">JavaScript (Basic)</div>
-        <div class="skill">CSS (Basic)</div>
+        <div class="skill">Java</div>
+        <div class="skill">HTML</div>
+        <div class="skill">CSS</div>
+        <div class="skill">JavaScript</div>
+        <div class="skill">Linux CLI</div>
         <div class="skill">Data Structures & Algorithms</div>
-        <div class="skill">Linux Command</div>
-        <div class="skill">Subfinder</div>
-        <div class="skill">Amass</div>
-        <div class="skill">EveWitness</div>
+        <div class="skill">Operating Systems</div>
+        <div class="skill">Computer Networks</div>
+        <div class="skill">DBMS</div>
         <div class="skill">Nmap</div>
+        <div class="skill">Amass</div>
+        <div class="skill">Subfinder</div>
         <div class="skill">Dirb</div>
         <div class="skill">Dirbuster</div>
+        <div class="skill">EyeWitness</div>
       </div>
     </section>
+
   </div>
 </div>
 </body>
