@@ -1,0 +1,109 @@
+\documentclass[letterpaper,11pt]{article}
+
+\usepackage[empty]{fullpage}
+\usepackage[hidelinks]{hyperref}
+\usepackage{titlesec}
+\usepackage{enumitem}
+
+\addtolength{\oddsidemargin}{-0.5in}
+\addtolength{\evensidemargin}{-0.5in}
+\addtolength{\textwidth}{1in}
+\addtolength{\topmargin}{-0.5in}
+\addtolength{\textheight}{1.0in}
+
+\urlstyle{same}
+\raggedright
+\setlength{\tabcolsep}{0in}
+
+\titleformat{\section}{
+  \vspace{-4pt}\large\bfseries
+}{}{0em}{}[\titlerule \vspace{-6pt}]
+
+\newcommand{\resumeItem}[1]{
+  \item\small{#1}
+}
+
+\newcommand{\resumeHeading}[2]{
+  \textbf{#1} \hfill #2 \\
+}
+
+\begin{document}
+
+%==================== HEADER ====================
+\begin{center}
+{\LARGE \textbf{OmJi}} \\[6pt]
+\href{mailto:omjirai3139@gmail.com}{omjirai3139@gmail.com} \,|\, 
++91 6388974149 \,|\, 
+\href{https://www.linkedin.com/in/omji-rai}{linkedin.com/in/omji-rai} \,|\, 
+\href{https://github.com/omji560}{github.com/omji560}
+\end{center}
+
+%==================== SUMMARY ====================
+\section{Summary}
+\small{
+Computer Science undergraduate specializing in Cybersecurity, with hands-on experience in system-level and security-focused projects. Actively practicing Data Structures and Algorithms in C++, with strong foundations in Operating Systems, Computer Networks, and DBMS. Seeking core software and systems-oriented roles.
+}
+
+%==================== EDUCATION ====================
+\section{Education}
+\resumeHeading
+{Bennett University, Greater Noida, India}
+{2023 -- Present}
+
+\textit{Bachelor of Technology in Computer Science and Engineering (Cybersecurity)}
+
+%==================== PROJECTS ====================
+\section{Projects and Research Experience}
+
+\textbf{Data Leak Detection System (DLDS)} \\
+\textit{Python, Linux, File System Monitoring}
+\begin{itemize}[leftmargin=0.15in]
+  \resumeItem{Developed a Python-based system monitoring 100+ file access events per session in real time}
+  \resumeItem{Implemented IP and MAC-based access control across 3+ test endpoints to prevent unauthorized access}
+  \resumeItem{Built centralized logging mechanisms generating audit logs for every file modification and access attempt}
+  \resumeItem{Improved data access traceability by 100 percent through structured monitoring and alerts}
+\end{itemize}
+
+\textbf{VANET Security Research (PUF-Based Authentication)} \\
+\textit{Vehicular Networks, Security Protocols}
+\begin{itemize}[leftmargin=0.15in]
+  \resumeItem{Engineered a secure communication model for VANETs using PUF-based authentication}
+  \resumeItem{Integrated segmented message transmission with Selective Repeat ARQ to reduce retransmission overhead}
+  \resumeItem{Evaluated protocol behavior across multi-hop vehicular communication scenarios}
+  \resumeItem{Authored a research manuscript currently under academic review}
+\end{itemize}
+
+\textbf{Android Malware Research} \\
+\textit{Mobile Security, Threat Analysis}
+\begin{itemize}[leftmargin=0.15in]
+  \resumeItem{Analyzed Android malware samples across multiple threat categories including data exfiltration}
+  \resumeItem{Contributed to threat modeling and AI-based malware detection strategy formulation}
+  \resumeItem{Presented findings at Mobilon competition and secured 3rd place among competing teams}
+\end{itemize}
+
+%==================== SKILLS ====================
+\section{Technical Skills}
+\begin{itemize}[leftmargin=0.15in]
+  \resumeItem{\textbf{Programming:} C++, Java}
+  \resumeItem{\textbf{Core Computer Science:} Data Structures and Algorithms, Operating Systems, Computer Networks, DBMS}
+  \resumeItem{\textbf{Systems and Security:} Linux CLI, Access Control, Logging and Monitoring, Network Scanning}
+  \resumeItem{\textbf{Security Tools:} Nmap, Amass, Subfinder, Dirb, Dirbuster, EyeWitness}
+  \resumeItem{\textbf{Web Basics:} HTML, CSS, JavaScript}
+\end{itemize}
+
+%==================== COURSEWORK ====================
+\section{Coursework}
+\begin{itemize}[leftmargin=0.15in]
+  \resumeItem{Data Structures and Algorithms}
+  \resumeItem{Operating Systems}
+  \resumeItem{Computer Networks}
+  \resumeItem{Database Management Systems}
+\end{itemize}
+
+%==================== ACHIEVEMENTS ====================
+\section{Achievements}
+\begin{itemize}[leftmargin=0.15in]
+  \resumeItem{Secured 3rd place in Mobilon competition for Android Malware Research}
+\end{itemize}
+
+\end{document}
